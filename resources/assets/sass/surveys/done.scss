@@ -1,0 +1,51 @@
+html {
+  width: 100%;
+  height: 100.05%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url('/img/body-bkg.jpg') repeat-x top center;
+  font-family: Tahoma, Geneva, Verdana, serif;
+  color: #383838;
+  font-size: 12px;
+}
+
+#wrapper {
+  position: relative;
+  width: 897px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#header {
+  position: relative;
+  width: 100%;
+  height: 206px;
+  background: url('/img/header-hrcoach.png') no-repeat top center;
+  #logo {
+    position: absolute;
+    top: 82px;
+    right: 50px;
+    width: 310px;
+    height: 96px;
+    background: url('/img/logo.png') no-repeat top right;
+  }
+}
+
+#main {
+  position: relative;
+  width: 856px;
+  height: auto;
+  margin: 0;
+  padding: 10px 20px;
+  min-height: 300px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 2px 2px 1px rgba(96, 140, 177, 0.5), -1px 0 rgba(96, 140, 177, 0.5);
+  box-shadow: 2px 2px 1px rgba(96, 140, 177, 0.5), -1px 0 rgba(96, 140, 177, 0.5);
+}
